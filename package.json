@@ -1,0 +1,18 @@
+{
+  "name": "chatapp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simulacra": "^1.5.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1"
+  }
+}
